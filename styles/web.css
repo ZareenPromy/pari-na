@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* button */
+
+
+/* container holding the text and the images */
+.container {
+    display: flex;
+}
+
+/* text */
+.banner-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 65px;
+    left: 845px;
+    top: 216px;
+    text-align: right;
+    color: #151414;
+}
+
+.banner-para {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    color: #444343;
+    text-align: left;
+
+}
+
+.second {
+    color: #151414;
+    font-weight: 700;
+    font-size: 70px;
+    position: absolute;
+    left: 862px;
+    top: 1100px;
+}
+
+
+.banner-description {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    color: #444343;
+    text-align: right;
+
+}
+
+.dots {
+    color: #444343;
+    text-align: left;
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 850px;
+    top: 540px;
+
+
+}
+
+.person {
+    position: absolute;
+    text-align: center;
+    width: 972px;
+    color: white;
+}
+
+.title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+
+    width: 179px;
+    height: 47px;
+    left: 711px;
+    top: 850px;
+
+}
+
+/* plans */
+.plan-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plans {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    color: #757575;
+
+}
+
+/* watch */
+.watch {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 1400px;
+
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    left: 100px;
+    font-weight: 700;
+    font-size: 70px;
+
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    color: #FFFFFF;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    text-align: center;
+}
+
+.call {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    height: 64px;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    left: 294px;
+    top: px;
+
+}
+
+.end {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+   
+position: static;
+position: absolute;
+bottom: 20px;
+right: 20px;
+
+height: 577px;
+
+    background-image: url(/images/grey.jpg);
+
+}
